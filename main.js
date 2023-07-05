@@ -12,7 +12,7 @@ listaApps.push({id: 8, nombre: "RojaDirecta", url: "https://www.rojadirectatv.de
 console.log("Ready")
 export default function CardApp(app){
     return `    
-        <article class="card-app grid-container" id="${app.id}">            
+        <article class="card-app grid-container flex-center" id="${app.id}">            
                 <img src="${app.imagen}" alt="${app.nombre}" class="app-img">            
         </article>
     `;
