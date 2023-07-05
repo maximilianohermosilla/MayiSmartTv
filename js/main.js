@@ -2,8 +2,8 @@ import  CardApp  from "./components/card.js";
 
 let listaApps = [];
 
-listaApps.push({id: 1, nombre: "Youtube", url: "https://www.youtube.com", imagen: "../../img/youtube.jpg"});
-listaApps.push({id: 2, nombre: "Netflix", url: "https://www.netflix.com", imagen: "../../img/netflix.png"});
+listaApps.push({id: 1, nombre: "Youtube", url: "https://www.youtube.com", imagen: "img/youtube.jpg"});
+listaApps.push({id: 2, nombre: "Netflix", url: "https://www.netflix.com", imagen: "../img/netflix.png"});
 listaApps.push({id: 3, nombre: "Prime Video", url: "https://www.primevideo.com/", imagen: "../../img/primevideo.png"});
 listaApps.push({id: 4, nombre: "Disney Plus", url: "https://www.disneyplus.com/", imagen: "../../img/disney.jpg"});
 listaApps.push({id: 5, nombre: "Star Plus", url: "https://www.starplus.com", imagen: "../../img/star.png"});
