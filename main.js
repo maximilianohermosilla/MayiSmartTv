@@ -1,4 +1,4 @@
-import  CardApp  from "../card.js";
+import  CardApp  from "/card.js";
 
 let listaApps = [];
 
