@@ -1,5 +1,3 @@
-import  CardApp  from "/components/card.js";
-
 let listaApps = [];
 
 listaApps.push({id: 1, nombre: "Youtube", url: "https://www.youtube.com", imagen: "youtube.jpg"});
@@ -10,6 +8,16 @@ listaApps.push({id: 5, nombre: "Star Plus", url: "https://www.starplus.com", ima
 listaApps.push({id: 6, nombre: "Cine.Ar", url: "http://cine.ar/", imagen: "cinear.jpg"});
 listaApps.push({id: 7, nombre: "Cuevana", url: "https://www.cuevana3.in/", imagen: "cuevana.png"});
 listaApps.push({id: 8, nombre: "RojaDirecta", url: "https://www.rojadirectatv.de/", imagen: "rojadirecta.png"});
+
+console.log("Ready")
+export default function CardApp(app){
+    return `    
+        <article class="card-app grid-container" id="${app.id}">            
+                <img src="${app.imagen}" alt="${app.nombre}" class="app-img">            
+        </article>
+    `;
+}
+
 
 let container = document.getElementById("appsContainer");
 listaApps.forEach(element => {
@@ -30,6 +38,6 @@ const loadMercaderias = async (id) => {
     location.href = redirect.url;
 }
 
-console.log("Ready")
+
 
 onImageItemClick(document.querySelectorAll(".card-app"));        
