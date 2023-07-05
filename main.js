@@ -1,4 +1,4 @@
-import  CardApp  from "../../components/card.js";
+import  CardApp  from "/components/card.js";
 
 let listaApps = [];
 
@@ -29,5 +29,7 @@ const loadMercaderias = async (id) => {
     console.log(redirect.url);
     location.href = redirect.url;
 }
+
+console.log("Ready")
 
 onImageItemClick(document.querySelectorAll(".card-app"));        
