@@ -7,7 +7,7 @@ listaApps.push({id: 4, nombre: "Disney Plus", url: "https://www.disneyplus.com/"
 listaApps.push({id: 5, nombre: "Star Plus", url: "https://www.starplus.com", imagen: "star.png"});
 listaApps.push({id: 6, nombre: "Cine.Ar", url: "http://cine.ar/", imagen: "cinear.jpg"});
 listaApps.push({id: 7, nombre: "Cuevana", url: "https://www.cuevana3.in/", imagen: "cuevana.png"});
-listaApps.push({id: 8, nombre: "RojaDirecta", url: "https://www.rojadirectatv.de/", imagen: "rojadirecta.png"});
+listaApps.push({id: 8, nombre: "FutbolLibre", url: "https://librefutboltv.net/", imagen: "futbollibre.jpg"});
 
 console.log("Ready")
 export default function CardApp(app){
